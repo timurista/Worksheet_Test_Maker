@@ -54,7 +54,7 @@ def get_synonym_words(word):
 
 vocab_sentences = {
 "adjacent":[],
-"foretaste":[],
+"foretaste":["The bitterly cold morning was a foretaste of the harsh winter to come.","Today's win is but a foretaste of the team's success in the coming years."],
 "interminable":[
 	"Here, a good map means the difference between a pleasant drive and an interminable one.",
 	"Alternatively, some of us poor souls would prefer voluntary euthanasia to pointless interminable suffering when the time comes.",
@@ -80,7 +80,7 @@ vocab_sentences = {
 "In some ways, perhaps, it is best not to interrogate a legend too closely.",
 ],
 "trickle":[],
-"barren":[],
+"barren":["The field was barren and no longer producing any seeds or fruit.","The field was "],
 "humdrum":[
 	"Some are aggressive achievers in otherwise humdrum industries.",
 	"More encouraging still is that such humdrum topics as septic systems and cow-dung fires rose to the top of the agenda.",
@@ -101,7 +101,7 @@ vocab_sentences = {
 "insinuate":[],
 "vicious":[],
 "available":[],
-"firebrand":[],
+"firebrand":["He was a right-wing and ultra-conservative firebrand.","He was incredibly passionate about saving the whales, some even called her a firebrand."],
 "indispensable":[],
 "poised":[],
 "cater":[],

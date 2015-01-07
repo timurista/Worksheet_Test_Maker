@@ -23,7 +23,7 @@ def make_packet(n=1):
 		"Someone must sit near I.",		
 		"Us want a new kite.",
 		"The kitten followed we.",
-		"The principal presented Tom and I awards.",
+		"The principal presented Tom and me awards.",
 		"My father and me refinished an old cart.",
 		"The applicants for that job were Frank and me.",
 		"Who bought they a magazine?",

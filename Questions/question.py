@@ -145,8 +145,12 @@ class Packet:
 		self.fn_list = fn_list
 	def make_packet(self,number):
 		s=""
-		for x in range(number):
+		_range = list(range(number))
+		shuffle(_range)
+		#print _range
+		for x in _range:
 			try:
+				#s+=choice(self.fn_list).get_Question()+"\n"
 				s+=self.fn_list[x%len(self.fn_list)].get_Question()+"\n"
 			except:
 				continue
@@ -184,4 +188,9 @@ if __name__=="__main__":
 	print p.make_packet(2)
 	print make_packets(4,qdict={"question 1":["a","b","c","q","ab"],"question 2":["d","e","f","cd","ef"]})
 	print select_Quesion("preposition",underline="verb").get_Question()
-
+	print make_packets(4,qdict={
+		"option1":["a","b","c"],
+		"option2":["a","b","c"],
+		"option3":["a","b","c"],
+		"option4":["a","b","c"],
+		})

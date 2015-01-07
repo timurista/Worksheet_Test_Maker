@@ -81,7 +81,6 @@ def make_packet(number=1):
 
 if __name__=="__main__":
 	print "testing..."
-	#print get_comma_large_numbers_question()
 	print make_packet(5)
 
 
